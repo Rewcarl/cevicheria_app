@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sirenita5_app.Cara">
+    <StackLayout BackgroundColor="DarkSalmon">
+        <Label Text="Las Sirenitas"
+           FontSize="40"
+           FontAttributes="Bold"
+           Margin="0,20,0,0"
+           HorizontalOptions="Center"/>
+        <Frame VerticalOptions="FillAndExpand"
+           Margin="20"
+           CornerRadius="20"
+           HasShadow="False">
+            <StackLayout VerticalOptions="Center"
+                     Spacing="20">
+                <Image Source="logo_sirenitas_new_1"/>
+                <Label Text="¡Sea bienvenido a la cevicheria Las Sirenitas , nos especializamos en platillos de gastronomia maritima de alta calidad 💖🦐."
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
